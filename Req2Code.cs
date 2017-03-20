@@ -119,7 +119,7 @@ namespace Req2Code
 
 			newTxt.AllowDrop = true;
 			newTxt.DragDrop += new DragEventHandler(MyTextBox_DragDrop);
-            newTxt.DragEnter += new DragEventHandler(MyTextBox_DragEnter);
+			newTxt.DragEnter += new DragEventHandler(MyTextBox_DragEnter);
 			
 			newTxt.KeyPress += TextBox_KeyPress;
 			
